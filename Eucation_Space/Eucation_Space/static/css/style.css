@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar_list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+.navbar_link{
+    flex: 1;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #78AA78;
+    border: solid #6c9b79;
+    border-width: 2px 1px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+.navbar_link:hover{
+    background-color: #638a63;
+
+}
+
+.container{
+    background-color: #d2e3d2;
+    height: 90vh;
+}
+body{
+    min-height: 100vh;
+}
+
+form, form#form_log{
+    display: grid;
+    justify-items: center;
+    width: 60vw;
+    height: 40vh;
+}
+form#form_log{
+    height: 20vh;
+}
+form p label{
+    width: 14.5vw;
+    display: inline-block;
+    font-size: 21px;
+}
+form p input{
+    width: 44.5vw;
+    background-color: #ffffff00;
+    font-size: 17px;
+    border-color: #6c9b79;
+    border-style: solid;
+}
+form p input[type='file']::file-selector-button{
+    background-color: #ffffff00;
+    border-color: #6c9b79;
+    border-style: solid;
+    transition: 1s;
+}
+form p input[type='file']::file-selector-button:hover{
+    background-color: #3d5443;
+    border-color: #1e2a21;
+}
+form p input[type='file']{
+    width: 44.5vw;
+    background-color: #ffffff00;
+    font-size: 17px;
+    border: none;
+}
+form p span{
+    color: #888888;
+}
+form input.inp_form{
+    margin-top: 5vh;
+    width: 40vw;
+    padding: 5px 0;
+    background-color: #78AA78;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s;
+    border-radius: 15px;
+    border: none;
+}
+form input.inp_form:hover{
+    background-color: #78aa98;
+    color: #000000;
+}
+.container div{
+    display: grid;
+    justify-content: center;
+}
+h1, h3{
+    text-align: center;
+}
+h1{
+    margin: 15px 0 0;
+}
+h3{
+    margin: 0 0 15px;
+}
